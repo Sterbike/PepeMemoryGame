@@ -7,7 +7,8 @@
   body {
     height: 100vh;
     display: flex;
-    background: #ff00ea;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,116,1) 50%, rgba(0,212,255,1) 100%);
   }
   
   .memory-game {
@@ -29,6 +30,7 @@
     transition: transform .5s;
     box-shadow: 1px 1px 1px rgba(0,0,0,.3);
   }
+
   
   .memory-card:active {
     transform: scale(0.97);
@@ -45,9 +47,10 @@
     height: 100%;
     padding: 20px;
     position: absolute;
-    border-radius: 5px;
-    background: #000000;
+    background: rgb(168,168,168);
+    background: linear-gradient(0deg, rgba(168,168,168,1) 0%, rgba(5,74,0,1) 100%);
     backface-visibility: hidden;
+    border-radius: 10px;
   }
   
   .front-face {
